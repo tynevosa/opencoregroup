@@ -4,6 +4,7 @@ import HeroSection from '@/components/HeroSection';
 import Footer from '@/components/Footer';
 import FilterSection from '@/components/FilterSection';
 import ProjectSection from '@/components/ProjectSection';
+import TransformingSection from '@/components/TransformingSection';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <HeroSection />
         <FilterSection />
         <ProjectSection />
+        <TransformingSection />
       </main>
       <Footer />
     </>
