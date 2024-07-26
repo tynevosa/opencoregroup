@@ -2,6 +2,7 @@ import Image from 'next/image';
 import FloatingMenu from '@/components/FloatingMenu';
 import HeroSection from '@/components/HeroSection';
 import Footer from '@/components/Footer';
+import FilterSection from '@/components/FilterSection';
 
 export default function Home() {
   return (
@@ -12,10 +13,11 @@ export default function Home() {
         alt={'Union'}
         height={0}
         width={0}
-        className='h-40 w-full object-cover'
+        className='h-[117px] w-full object-cover md:h-[155px]'
       />
       <main className='flex flex-col items-center justify-between px-4 md:px-24'>
         <HeroSection />
+        <FilterSection />
       </main>
       <Footer />
     </>
