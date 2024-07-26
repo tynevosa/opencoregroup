@@ -6,7 +6,7 @@ const inter = DM_Sans({ subsets: ['latin'] });
 
 const title = 'OpenCore Group';
 const description = 'Your Ultimate Resource Hub for Digital Success';
-const domain = 'https://opencoregroup.vercel.app';
+const domain = 'https://opencoregroup-five.vercel.app';
 
 export const metadata: Metadata = {
   title: title,
